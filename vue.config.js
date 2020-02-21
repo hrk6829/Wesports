@@ -4,7 +4,6 @@ module.exports = {
   'transpileDependencies': [
     'vuetify'
   ],
-  outputDir: 'docs',
   configureWebpack: {
     resolve: {
       alias: {
