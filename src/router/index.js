@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/Home'
+import Link from '@/views/Link'
 // import Signin from '@/views/Signin'
 // import Signup from '@/views/Signup'
 // import firebase from 'firebase'
@@ -17,7 +18,13 @@ const routes = [
     path: '/goods',
     name: 'Goods',
     component: Home
+  },
+  {
+    path: '/link',
+    name: 'Link',
+    component: Link
   }
+
   // {
   //   path: '/',
   //   name: 'Signin',

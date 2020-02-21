@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import AppBar from './components/AppBar'
+import AppBar from './components/common/AppBar'
 
 export default {
   name: 'App',

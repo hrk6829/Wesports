@@ -11,7 +11,7 @@
       <v-spacer />
       <v-toolbar-items class="d-none d-md-block">
         <v-btn text to="/goods">商品</v-btn>
-        <v-btn text to="/news">ニュース</v-btn>
+        <v-btn text to="/link">リンク</v-btn>
         <v-btn text to="/movie">動画</v-btn>
         <v-btn text to="/qa">Q&A</v-btn>
         <v-btn text to="/contact">お問い合わせ</v-btn>
@@ -38,10 +38,10 @@
             </v-list-item>
           </router-link>
 
-          <router-link to="/news">
+          <router-link to="/link">
             <v-list-item>
               <!-- <v-icon class="mr-2">code</v-icon> -->
-              <v-list-item-title>ニュース</v-list-item-title>
+              <v-list-item-title>リンク</v-list-item-title>
             </v-list-item>
           </router-link>
 

@@ -24,8 +24,8 @@ export default {
 <style scoped>
 .home-img {
   height: 25vh;
-  background: #fff url("..\\..\\public\\img\\icons\\gaming-pc.jpg") no-repeat
-    center center;
+  background: #fff url("..\\..\\..\\public\\img\\icons\\gaming-pc.jpg")
+    no-repeat center center;
   background-size: cover;
   position: relative;
 }
